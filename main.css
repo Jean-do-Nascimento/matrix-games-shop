@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url(https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+}
+
+body > header {
+    background-color: rgb(0, 0, 0);
+    padding: 16px 0;
+    color: rgb(52, 219, 83);
+}
+
+header, section h2, section h3, section p, footer, form button {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 204, 204)
+}
+
+section h2, #about p, #contact p {
+    background-color: black;
+    width: max-content;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles article img {
+    margin-top: 15px;
+    margin-left: 14px;
+    height: 300px; 
+    width: 90%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.articles article {
+    width: 20%;
+    background-color: rgba(10, 10, 10, 0.88);
+    border-radius: 20px;
+}
+
+.articles article p, 
+#about p, #contact p {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#about p {
+    color: rgb(204, 204, 204);
+}
+
+section {
+    padding: 16px 0
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+.articles article h3 {
+    margin: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: rgb(52, 219, 83);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Anta", sans-serif;;
+    font-weight: 600;
+    font-size: small;
+}
+
+article a:hover {
+    background-color: rgb(11, 147, 36);
+}
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: rgb(52, 219, 83);
+    color: black;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(11, 147, 36);
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(11, 147, 36);
+}
+
+footer {
+    background-color: black;
+    color: rgb(52, 219, 83);
+    padding: 9px 0;
+    text-align: center;
+}
