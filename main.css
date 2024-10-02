@@ -21,7 +21,7 @@ header, section h2, section h3, section p, footer, form button {
 }
 
 section h2, #about p, #contact p {
-    background-color: rgba(35, 35, 37, 0.385);
+    background-color: rgba(2, 2, 2, 0.565);
     width: max-content;
 }
 
